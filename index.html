@@ -39,6 +39,11 @@
                     class="NavigationPill" style="width: 100px; height: 32px; padding: 8px; background: #E5A000; border-radius: 8px; justify-content: center; align-items: center; display: flex; border: none; cursor: pointer;">
                 <div class="Title" style="color: #2C2C2C; font-size: 16px; font-family: Lato; font-weight: 700; line-height: 16px; word-wrap: break-word">Projects</div>
             </button>
+             <!-- Pulsante "Artwork" -->
+             <button onclick="document.getElementById('5').scrollIntoView({ behavior: 'smooth' })" 
+                      class="NavigationPill" style="width: 100px; height: 32px; padding: 8px; background: #E5A000; border-radius: 8px; justify-content: center; align-items: center; display: flex; border: none; cursor: pointer;">
+                   <div class="Title" style="color: #2C2C2C; font-size: 16px; font-family: Lato; font-weight: 700; line-height: 16px; word-wrap: break-word">Artwork</div>
+              </button>
         </div>
         </div>
         <div class="HeroActions" style="align-self: stretch; height: 800px; padding-left: 24px; padding-right: 24px; padding-top: 160px; padding-bottom: 160px; background: #FFFBEB; flex-direction: column; justify-content: flex-start; align-items: center; gap: 32px; display: flex">
@@ -107,7 +112,18 @@
             </div>
           </div>
         </div>
-        <div class="Footer" id= "5" style="align-self: stretch; flex: 1 1 0; padding-top: 32px; padding-bottom: 160px; padding-left: 32px; padding-right: 32px; background: white; border-top: 1px #D9D9D9 solid; justify-content: flex-start; align-items: flex-start; gap: 16px; display: inline-flex">
+        
+        <div class="PanelImageDouble" id= "5" style="width:100%; height: 1261px; padding: 64px; background: white; justify-content: flex-start; align-items: flex-start; gap: 48px; display: inline-flex">
+          <div class="TextContentHeading" style="flex-direction: column; align-items: flex-start; gap: 8px; display: flex">
+            <div class="Heading" style="align-self: stretch; color: #1E1E1E; font-size: 24px; font-family: Lato; font-weight: 600; line-height: 28.80px; word-wrap: break-word; transform: translateX(100px)">Artwork</div>
+          </div>
+          <img class="Image" style="width:850px; transform: translateY(50px)" src="wind.png" />
+        </div>
+        <div class="PanelImageDouble" style="width: 100%; height: 1261px; padding: 64px; background: white; justify-content: flex-start; align-items: flex-start; gap: 48px; display: inline-flex">
+          <img class="Image" style="width: auto; height: 1025px" src="view_1.png" />
+          <img class="Image" style="width: auto; height: 1025px" src="view_2.png" />
+        </div>
+        <div class="Footer" style="align-self: stretch; flex: 1 1 0; padding-top: 32px; padding-bottom: 160px; padding-left: 32px; padding-right: 32px; background: white; border-top: 1px #D9D9D9 solid; justify-content: flex-start; align-items: flex-start; gap: 16px; display: inline-flex">
             <div class="Title" style="width: 262px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: inline-flex">
               <div class="Figma" style="justify-content: center; align-items: center; display: inline-flex">
                 <img src="LOGO.png" alt="Logo" style="width: 50px; height: auto;">
@@ -137,7 +153,7 @@
               </div>
             </div>
           </div>
-                  </div>
+        </div>
       </div>
 </body>
 </html>
