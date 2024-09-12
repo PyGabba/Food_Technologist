@@ -8,21 +8,18 @@
 </head>
 <body>
     <div class="HomePage" id= "0" style="width: auto; height: 2594px; background: white; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+      <div class="arrow-up" style="display: flex; position: fixed; transform: translateX(10px)">
+        <a onclick="document.getElementById('0').scrollIntoView({ behavior: 'smooth' })">
+          <img src="arrow-up.png" alt="arrow-up" style="height: 25px; width: auto; transform: translateX(25px) translateY(25px);">
+        </a>
+      </div>
       <div class="Header" style="align-self: stretch; padding: 25px; background: #ffffff; border-bottom: 1px #909090 solid; justify-content: flex-start; align-items: center; gap: 24px; display: inline-flex;  z-index: 2">
         <div class="Block" style="justify-content: flex-start; align-items: center; gap: 24px; display: flex">
-          <div class="Logo" style="height: 140px; justify-content: center; align-items: center; display: flex; position: fixed; transform: translateX(64px); z-index: 10; ">
+          <div class="Logo" style="height: 140px; justify-content: center; align-items: center; display: flex; position: fixed; transform: translateX(55px); z-index: 10; ">
             <a onclick="document.getElementById('0').scrollIntoView({ behavior: 'smooth' })">
               <img src="LOGO.png" alt="Logo" style="height: 60px; width: auto">
             </a>
-          </div>
-          <div class="arrow-up" style="display: flex; position: fixed; transform: translateX(10px)">
-            <a onclick="document.getElementById('0').scrollIntoView({ behavior: 'smooth' })">
-              <img src="arrow-up.png" alt="arrow-up" style="height: 25px; width: auto;">
-            </a>
-          </div>
-          <div class="arrow-up" style="display: flex; transform: translateX(9px)">
-              <img src="arrow-up cover.png" alt="arrow-up cover" style="height: 40px; width: 30;">
-          </div>                                
+          </div>                            
       </div>
           <div class="NavigationPillList" style="flex: 1 1 0; height: 32px; justify-content: flex-end; align-items: center; gap: 16px; display: flex">
             <!-- Pulsante "Me" -->
